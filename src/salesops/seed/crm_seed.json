@@ -1,0 +1,89 @@
+{
+  "accounts": [
+    {
+      "name": "Northwind Logistics",
+      "industry": "Logistics",
+      "employees": 2400,
+      "region": "US Central",
+      "stage": "Prospect",
+      "owner": "sam.rivera@yourco.example",
+      "arr_potential": 180000,
+      "notes": "Inbound lead from logistics AI webinar.",
+      "next_step": "",
+      "contacts": [
+        {"name": "Dana Whitfield", "title": "VP of Operations", "email": "dana.whitfield@northwind.example"},
+        {"name": "Marcus Lee", "title": "Senior Data Engineer", "email": "marcus.lee@northwind.example"}
+      ],
+      "activities": [
+        {"type": "webinar", "summary": "Dana attended 'AI for Shipment Exceptions' webinar and asked about ERP integration.", "created_at": "2026-09-10"}
+      ]
+    },
+    {
+      "name": "Contoso Health",
+      "industry": "Healthcare",
+      "employees": 8000,
+      "region": "US East",
+      "stage": "Qualified",
+      "owner": "sam.rivera@yourco.example",
+      "arr_potential": 420000,
+      "notes": "Discovery call done. Security review required before any pilot.",
+      "next_step": "Send security questionnaire",
+      "contacts": [
+        {"name": "Priya Nair", "title": "Chief Information Officer", "email": "priya.nair@contoso-health.example"},
+        {"name": "Tom Becker", "title": "Director of Revenue Cycle", "email": "tom.becker@contoso-health.example"}
+      ],
+      "activities": [
+        {"type": "call", "summary": "Discovery call with Tom: prior-authorization backlog is ~11 days; wants human review on every AI decision.", "created_at": "2026-09-15"}
+      ]
+    },
+    {
+      "name": "Fabrikam Manufacturing",
+      "industry": "Manufacturing",
+      "employees": 1200,
+      "region": "US Midwest",
+      "stage": "Prospect",
+      "owner": "alex.chen@yourco.example",
+      "arr_potential": 95000,
+      "notes": "",
+      "next_step": "",
+      "contacts": [
+        {"name": "Elena Petrova", "title": "Head of Plant Engineering", "email": "elena.petrova@fabrikam.example"},
+        {"name": "Jordan Kim", "title": "IT Manager", "email": "jordan.kim@fabrikam.example"}
+      ],
+      "activities": []
+    },
+    {
+      "name": "Litware Retail",
+      "industry": "Retail",
+      "employees": 600,
+      "region": "US West",
+      "stage": "Prospect",
+      "owner": "alex.chen@yourco.example",
+      "arr_potential": 40000,
+      "notes": "Cold list import.",
+      "next_step": "",
+      "contacts": [
+        {"name": "Chris Doyle", "title": "E-commerce Manager", "email": "chris.doyle@litware.example"}
+      ],
+      "activities": []
+    },
+    {
+      "name": "Adatum Financial",
+      "industry": "Financial Services",
+      "employees": 3500,
+      "region": "US East",
+      "stage": "Negotiation",
+      "owner": "sam.rivera@yourco.example",
+      "arr_potential": 650000,
+      "notes": "Procurement is price-sensitive. Legal reviewing MSA redlines.",
+      "next_step": "Legal call on MSA",
+      "contacts": [
+        {"name": "Rachel Osei", "title": "Head of Procurement", "email": "rachel.osei@adatum.example"},
+        {"name": "Victor Hale", "title": "VP of Client Operations", "email": "victor.hale@adatum.example"}
+      ],
+      "activities": [
+        {"type": "email", "summary": "Rachel asked for a revised order form; flagged budget ceiling.", "created_at": "2026-09-22"}
+      ]
+    }
+  ]
+}
